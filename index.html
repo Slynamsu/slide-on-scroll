@@ -5,22 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Short Story</title>
     <style>
-      html {
-        box-sizing: border-box;
-        background: #525659;
-        font-family: "helvetica neue";
-        font-size: 15px;
-        font-weight: 200;
-      }
-
       body {
         margin: 0;
-      }
-
-      *,
-      *:before,
-      *:after {
-        box-sizing: inherit;
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        background: #525659;
       }
 
       .site-wrap {
@@ -41,7 +31,7 @@
         margin-top: 0;
         position: absolute;
         top: 50%;
-        left: 73%;
+        left: 70%;
         transform: translate(-50%, -50%);
         white-space: nowrap;
         overflow: hidden;
@@ -70,15 +60,8 @@
 
       .slide-in {
         opacity: 0;
+        transform: translateX(0%);
         transition: all 0.5s;
-      }
-
-      .align-left.slide-in {
-        transform: translateX(-30%) scale(0.95);
-      }
-
-      .align-right.slide-in {
-        transform: translateX(30%) scale(0.95);
       }
 
       .slide-in.active {
@@ -89,13 +72,7 @@
       @media (max-width: 1024px) {
         h1 {
           font-size: 25px;
-          font-family: cursive;
-          margin-top: 0;
-          position: absolute;
-          top: 50%;
-          left: 60%;
-          white-space: nowrap;
-          overflow: hidden;
+          left: 55%;
         }
 
         img {
@@ -104,22 +81,13 @@
 
         p {
           font-size: 20px;
-          font-family: sans-serif;
-          text-align: start;
-          padding-bottom: 30px;
         }
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: 760px) {
         h1 {
-          font-size: 25px;
-          font-family: cursive;
-          margin-top: 0;
-          position: absolute;
-          top: 50%;
-          left: 60%;
-          white-space: nowrap;
-          overflow: hidden;
+          font-size: 18px;
+          left: 70%;
         }
 
         img {
@@ -128,55 +96,10 @@
 
         p {
           font-size: 15px;
-          font-family: sans-serif;
-          text-align: start;
-          padding-bottom: 30px;
         }
 
         .site-wrap {
           max-width: 500px;
-          margin: 100px auto;
-          background: #ffffff;
-          padding: 40px;
-          text-align: justify;
-        }
-
-        @media (max-width: 425px) {
-          h1 {
-            font-size: 20px;
-            font-family: cursive;
-            margin-top: 0;
-            position: absolute;
-            top: 50%;
-            left: 70%;
-          }
-        }
-
-        .site-wrap {
-          max-width: 375px;
-          margin: 100px auto;
-          background: #ffffff;
-          padding: 40px;
-          text-align: justify;
-        }
-
-        @media (max-width: 375px) {
-          h1 {
-            font-size: 12px;
-            font-family: cursive;
-            margin-top: 0;
-            position: absolute;
-            top: 50%;
-            left: 80%;
-          }
-        }
-
-        .site-wrap {
-          max-width: 300px;
-          margin: 100px auto;
-          background: #ffffff;
-          padding: 40px;
-          text-align: justify;
         }
       }
     </style>
@@ -201,21 +124,21 @@
       </p>
 
       <p>
+        <img src="./images/3. wolf and red.jpg" class="align-right slide-in" />
         Little Red Riding Hood immediately set out for grandmother’s house. But
         in the forest, she met a hungry Wolf. “Where are you going?” said the
-        <img src="./images/3. wolf and red.jpg" class="align-right slide-in" />
         Wolf. “To see my grandmother,” said innocent Little Red Riding Hood;
         “she’s sick. I have some milk, bread and butter for her.” “Pick some
         flowers,” said the Wolf. And he ran to grandmother’s house
       </p>
       <p>
-        The Wolf got to grandmother’s house. He went tap-taptap on the door.
-        “Who is this?” asked Grandma. “It’s me, Little Red Riding Hood,” said
-        the Wolf; “I have some milk, bread and butter for you.” “Open the door
         <img
           src="./images/4. wolf and granny.jpg"
           class="align-left slide-in"
         />
+        The Wolf got to grandmother’s house. He went tap-taptap on the door.
+        “Who is this?” asked Grandma. “It’s me, Little Red Riding Hood,” said
+        the Wolf; “I have some milk, bread and butter for you.” “Open the door
         and come in, my dear,” said Grandma. The Wolf opened the door and, in an
         instant, he ate her up! Then, he got into Hood got to grandmother’s
         house. She went tap-tap-tap on the door. “Who is this?” asked the Wolf.
@@ -223,27 +146,23 @@
         you. And some flowers!” “Open the door and come in, my dear,” said the
         Wolf
       </p>
-      <p style="padding-bottom: 50px">
+      <p>
+        <img src="./images/5. grand wolf.jpg" class="align-right slide-in" />
         Little Red Riding Hood was surprised. Grandma looked so different!
         “Granny, what big ears you have!” she said. “All the better to hear you
-        with!”
-        <img
-          src="./images/5. grand wolf.jpg"
-          class="align-right slide-in"
-        />said the Wolf. “Granny, what big eyes you have!” she said. “All the
-        better to see you with!” said the Wolf. “Granny, what a big nose you
+        with!” said the Wolf. “Granny, what big eyes you have!” she said. “All
+        the better to see you with!” said the Wolf. “Granny, what a big nose you
         have!” she said. “All the better to smell you with!” said the Wolf.
         “Granny, what a big mouth you have!” she said. “All the better to eat
         you with!” said the Wolf. And in an instant… he ate her up!
       </p>
 
-      <p style="padding-bottom: 350px">
-        A Woodcutter was around in the forest. He spotted the Wolf inside
+      <p>
+        <img src="./images/6. the end.jpg" class="align-left slide-in" /> A
+        Woodcutter was around in the forest. He spotted the Wolf inside
         Grandma’s house. He opened the door and… he split the Wolf open! Happy
-        Little Red Riding Hood and happy Grandma sprang out!
-        <img src="./images/6. the end.jpg" class="align-left slide-in" />
+        Little Red Riding Hood and happy Grandma sprang out! <br />THE END.
       </p>
-      <p>THE END</p>
     </div>
 
     <script>
